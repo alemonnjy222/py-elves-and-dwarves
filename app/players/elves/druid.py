@@ -9,4 +9,4 @@ class Druid(Elf):
         return len(self._favourite_spell)
 
     def player_info(self):
-        print(f"Druid {self.nickname}. {self.nickname} has a favourite spell: {self.favourite_spell}")
+        return f"Druid {self.nickname}. {self.nickname} has a favourite spell: {self._favourite_spell}"
